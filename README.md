@@ -8,7 +8,7 @@ Bachelor buck covnverter:
   This PCB worked very well, converting 50V to 16.8V at a max current of around 3A, and achieving an efficency of around 95%.
   It had some thermal issues though (especially at high currents), nothing outside of the comonent limits, but some optimazations could be done.
 
-Bachelor COulomb counter:
+Bachelor Coulomb counter:
 
   This PCB used the LTC2959 coulomb counter IC to measure the state of charge, voltage, and current from a battery. An MCU (for out project an           AVR128DB48 on a curiosity nano board) was used to communicate with the coulomb counter via I2C to read its internal registers and to perform state of charge calculations. With this PCB i also learn the hard way why reverse polarity and ESD protection is useful, as a destroyed 2 versions of this PCB with (you guessed it) connecting the power supply in reverse, and with ESD.
 
