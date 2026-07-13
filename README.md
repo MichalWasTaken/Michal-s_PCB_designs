@@ -1,6 +1,8 @@
 # Michal-s_PCB_designs
 Repo for collecting and describing my PCB designs
 
+I am also actievely developing a gas analyzer project, where I'm making a shield for and STM32 nucleo board as a stepping stone towards a stand-alone system. For this one I'm trying to learn KiCad, and so I can actually use GIT for version control. Here is the link to that repo: https://github.com/MichalWasTaken/STM32Sheild.git
+
 **Quick description of each PCB:**
 
 **Bachelor buck covnverter:**
